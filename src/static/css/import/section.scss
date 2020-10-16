@@ -12,7 +12,7 @@
     min-height: 740px;
     padding: 50px 0;
     @media(max-width: 1024px) {
-      min-height: auto;
+      min-height: 100%;
     }
     @media(max-width: 768px) {
       flex-wrap: wrap;
@@ -43,5 +43,8 @@
     background: #fff;
     border-radius: 1000px/50px;
     z-index: 2;
+    @media(max-width: 1024px) {
+      display: none;
+    }
   }
 }

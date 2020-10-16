@@ -633,7 +633,7 @@ select:-webkit-autofill:focus {
 
 @media (max-width: 1024px) {
   .section__wrapp {
-    min-height: auto;
+    min-height: 100%;
   }
 }
 
@@ -675,11 +675,24 @@ select:-webkit-autofill:focus {
   z-index: 2;
 }
 
+@media (max-width: 1024px) {
+  .section-white-bg::before {
+    display: none;
+  }
+}
+
 .section-center {
   position: relative;
   padding: 170px 0 40px 0;
   margin-top: -100px;
   background: rgba(231, 236, 255, 0.75);
+}
+
+@media (max-width: 1024px) {
+  .section-center {
+    margin-top: 0;
+    padding: 40px 0;
+  }
 }
 
 .section-center__box {
