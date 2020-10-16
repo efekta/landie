@@ -1,0 +1,20 @@
+.title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  letter-spacing: 1px;
+  color: $color-title;
+  @media(max-width: 1024px) {
+    font-size: 42px;
+    line-height: 46px;
+  }
+  @media(max-width: 768px) {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+.desc {
+  font-size: 18px;
+  line-height: 30px;
+  color: $blue;
+}

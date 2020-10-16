@@ -1,0 +1,32 @@
+.btn {
+  min-width: 160px;
+  display: block;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 2px;
+  background: transparent;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  border: 1px solid $dark;
+  transition: all .3s ease-in-out;
+  @media(max-width: 768px) {
+    min-width: auto;
+  }
+}
+.btn--dark {
+  background: #111B47;
+  color: $white;
+  &:hover, &:focus {
+    background: transparent;
+    color: $dark;
+  }
+}
+.btn--light {
+  background: transparent;
+  color: $dark;
+  &:hover, &:focus {
+    background: #111B47;
+    color: $white;
+  }
+}
