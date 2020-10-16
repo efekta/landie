@@ -4,6 +4,7 @@
     flex-wrap: wrap;
   }
   &__item {
+    min-width: 0;
     margin-right: 60px;
     @media(max-width: 1170px) {
       margin-right: 15px;
@@ -18,5 +19,8 @@
   &__link {
     font-size: 14px;
     line-height: 24px;
+    &:hover, &:focus {
+      text-decoration: underline;
+    }
   }
 }

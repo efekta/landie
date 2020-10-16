@@ -22,9 +22,9 @@ body {
     max-width: 1170px;
     width: 100%;
     margin: auto;
+    padding: 0 20px;
     @media(max-width: 1170px) {
         max-width: 100%;
-        padding: 0 15px;
     }
 }
 .content-wrapper {
@@ -33,6 +33,7 @@ body {
 .footer {
     flex-shrink: 0;
 }
+
 ul, ol {
     list-style-type: none;
     padding: 0;

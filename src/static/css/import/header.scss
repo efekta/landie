@@ -1,9 +1,10 @@
 .header {
+  min-height: 75px;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 3;
   padding: 18px 0;
   &.fixed {
     position: fixed;
@@ -16,6 +17,7 @@
     justify-content: space-between;
   }
   &__nav {
+    min-width: 0;
     @media(max-width: 768px) {
       position: fixed;
       width: 100%;
@@ -30,6 +32,9 @@
       left: 0;
       opacity: 1;
     }
+  }
+  &__logo {
+    min-width: 0;
   }
 }
 .logo {

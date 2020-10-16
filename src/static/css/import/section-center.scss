@@ -1,0 +1,37 @@
+.section-center {
+  position: relative;
+  padding: 170px 0 40px 0;
+  margin-top: -100px;
+  background: rgba(231, 236, 255, .75);
+}
+
+.section-center__box {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  @media(max-width: 768px) {
+    width: 100%;
+  }
+}
+.price__title {
+  margin-bottom: 15px;
+}
+.price__desc {
+  margin-bottom: 35px;
+}
+.price__int {
+  display: block;
+  margin-bottom: 5px;
+}
+.price__small {
+  margin-bottom: 60px;
+  @media(max-width: 768px) {
+    margin-bottom: 35px;
+  }
+}
+.price__text {
+  margin-bottom: 15px;
+}
+.price__btn {
+  min-width: 180px;
+}

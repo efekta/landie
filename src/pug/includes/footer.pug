@@ -1,8 +1,43 @@
-.footer
+footer.footer.footer--blue
+    .container
+        .footer__content
+            .footer__copy ©2020 Yourcompany
+            span.footer__logo.logo Landie
+            button.header__btn.btn.btn--dark(type="button") Buy Now
+        .footer__nav
+            ul.footer-menu.menu-list
+                li.footer-menu__item.menu-list__item
+                    a.footer-menu__link.menu-list__link(href="#") Home
+                li.footer-menu__item.menu-list__item
+                    a.footer-menu__link.menu-list__link(href="#") About
+                li.footer-menu__item.menu-list__item
+                    a.footer-menu__link.menu-list__link(href="#") Contact
+            ul.social-list
+                li.social-list__item
+                    a(href="#").social-list__link Facebook
+                        span.social-list__icon.social-list__icon--facebook
+                            i.fab.fa-facebook-f
+                li.social-list__item
+                    a(href="#").social-list__link Linkedin
+                        span.social-list__icon.social-list__icon--linkedin
+                            i.fab.fa-linkedin-in
+                li.social-list__item
+                    a(href="#").social-list__link Twitter
+                        span.social-list__icon.social-list__icon--twitter
+                            i.fab.fa-twitter
+                li.social-list__item
+                    a(href="#").social-list__link Youtube
+                        span.social-list__icon.social-list__icon--youtube
+                            i.fab.fa-youtube
+                li.social-list__item
+                    a(href="#").social-list__link Instagram
+                        span.social-list__icon.social-list__icon--instagram
+                            i.fab.fa-instagram
 
 
 
 include ./modals.pug
 script(src="libs/jquery/jquery-3.4.1.min.js")
 script(src="libs/maskedinput/jquery.maskedinput.min.js")
+script(src="libs/fontawesome/svg-with-js/js/fontawesome-all.min.js")
 script(src="js/common.js")

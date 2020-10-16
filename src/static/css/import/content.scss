@@ -12,9 +12,36 @@
     font-size: 36px;
     line-height: 36px;
   }
+  &--center {
+    font-size: 36px;
+    line-height: 48px;
+    @media(max-width: 768px) {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
 }
 .desc {
   font-size: 18px;
   line-height: 30px;
   color: $blue;
+}
+.int {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: $color-int;
+}
+.int-desc {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: $dark_blue;
+}
+.int-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: $gray;
 }
