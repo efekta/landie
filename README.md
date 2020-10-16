@@ -1,4 +1,6 @@
-<p><a href="https://efekta.github.io/landie/build/index.html">Landie</a></p>
+### Landie
+* [Landie](https://efekta.github.io/landie/build/index.html)
+
 
 # Gulp 4. Версия с Pug + SCSS
 Стартовая сборка для Фронтенда
