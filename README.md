@@ -1,5 +1,4 @@
-### Landie
-* [Landie](https://efekta.github.io/landie/build/index.html)
+# [Landie](https://efekta.github.io/landie/build/index.html)
 
 
 # Gulp 4. Версия с Pug + SCSS
