@@ -289,6 +289,7 @@ select:-webkit-autofill:focus {
 }
 
 .header__wrapper {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -318,6 +319,16 @@ select:-webkit-autofill:focus {
 
 .header__logo {
   min-width: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header__btn {
+  position: absolute;
+  top: 50%;
+  right: 20px;
 }
 
 .logo {
@@ -328,6 +339,10 @@ select:-webkit-autofill:focus {
 }
 
 .burger {
+  position: fixed;
+  top: 30px;
+  left: 20px;
+  z-index: 3;
   width: 50px;
   cursor: pointer;
   display: none;
@@ -359,12 +374,6 @@ select:-webkit-autofill:focus {
 .burger:hover span {
   width: 65%;
   background: #37447E;
-}
-
-.burger.open {
-  position: absolute;
-  left: 20px;
-  z-index: 3;
 }
 
 .burger.open span {

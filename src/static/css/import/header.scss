@@ -12,6 +12,7 @@
     box-shadow: 0px 0px 12px 0px rgba(17, 27, 71, 0.75);
   }
   &__wrapper {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,6 +36,15 @@
   }
   &__logo {
     min-width: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__btn {
+    position: absolute;
+    top: 50%;
+    right: 20px;
   }
 }
 .logo {
@@ -44,6 +54,10 @@
   color: $dark_blue;
 }
 .burger {
+  position: fixed;
+  top: 30px;
+  left: 20px;
+  z-index: 3;
   width: 50px;
   cursor: pointer;
   display: none;
@@ -70,9 +84,6 @@
   }
 }
 .burger.open {
-  position: absolute;
-  left: 20px;
-  z-index: 3;
   span {
     width: 70%;
   }
