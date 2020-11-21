@@ -279,7 +279,6 @@ select:-webkit-autofill:focus {
   left: 0;
   right: 0;
   z-index: 3;
-  padding: 18px 0;
 }
 
 .header.fixed {
@@ -289,6 +288,7 @@ select:-webkit-autofill:focus {
 }
 
 .header__wrapper {
+  min-height: 75px;
   position: relative;
   display: flex;
   align-items: center;
@@ -320,14 +320,12 @@ select:-webkit-autofill:focus {
 .header__logo {
   min-width: 0;
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .header__btn {
   position: absolute;
-  top: 50%;
   right: 20px;
 }
 

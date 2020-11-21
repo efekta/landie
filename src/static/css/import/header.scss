@@ -5,13 +5,13 @@
   left: 0;
   right: 0;
   z-index: 3;
-  padding: 18px 0;
   &.fixed {
     position: fixed;
     background: $white;
     box-shadow: 0px 0px 12px 0px rgba(17, 27, 71, 0.75);
   }
   &__wrapper {
+    min-height: 75px;
     position: relative;
     display: flex;
     align-items: center;
@@ -37,13 +37,11 @@
   &__logo {
     min-width: 0;
     position: absolute;
-    top: 50%;
     left: 50%;
     transform: translateX(-50%);
   }
   &__btn {
     position: absolute;
-    top: 50%;
     right: 20px;
   }
 }
