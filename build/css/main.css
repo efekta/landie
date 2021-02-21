@@ -324,10 +324,6 @@ select:-webkit-autofill:focus {
   transform: translateX(-50%);
 }
 
-.header__btn {
-  position: absolute;
-  right: 20px;
-}
 
 .logo {
   font-weight: 900;
