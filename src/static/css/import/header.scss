@@ -40,6 +40,10 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  &__btn {
+    position: absolute;
+    right: 20px;
+  }
 }
 .logo {
   font-weight: 900;
